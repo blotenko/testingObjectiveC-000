@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79500FAF279AB0840069B86E /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79500FAC279AB0840069B86E /* pugixml.cpp */; };
+		79500FB2279AB0AB0069B86E /* PageSizeClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79500FB0279AB0AB0069B86E /* PageSizeClass.cpp */; };
+		79500FB4279AD1040069B86E /* Paper_Formats_PageSize_BCC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79500FB3279AD1040069B86E /* Paper_Formats_PageSize_BCC.xml */; };
 		79D1E08827998A4B00AD9C20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D1E08727998A4B00AD9C20 /* AppDelegate.m */; };
 		79D1E08B27998A4B00AD9C20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D1E08A27998A4B00AD9C20 /* ViewController.m */; };
 		79D1E08D27998A4C00AD9C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D1E08C27998A4C00AD9C20 /* Assets.xcassets */; };
@@ -15,6 +18,7 @@
 		79D1E09D27998A4C00AD9C20 /* testingObjectiveC_000Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D1E09C27998A4C00AD9C20 /* testingObjectiveC_000Tests.m */; };
 		79D1E0A727998A4C00AD9C20 /* testingObjectiveC_000UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D1E0A627998A4C00AD9C20 /* testingObjectiveC_000UITests.m */; };
 		79D1E0A927998A4C00AD9C20 /* testingObjectiveC_000UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D1E0A827998A4C00AD9C20 /* testingObjectiveC_000UITestsLaunchTests.m */; };
+		79D1E0B727998AA100AD9C20 /* TableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79D1E0B627998AA100AD9C20 /* TableViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79500FAC279AB0840069B86E /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		79500FAD279AB0840069B86E /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
+		79500FAE279AB0840069B86E /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		79500FB0279AB0AB0069B86E /* PageSizeClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PageSizeClass.cpp; sourceTree = "<group>"; };
+		79500FB1279AB0AB0069B86E /* PageSizeClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PageSizeClass.hpp; sourceTree = "<group>"; };
+		79500FB3279AD1040069B86E /* Paper_Formats_PageSize_BCC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Paper_Formats_PageSize_BCC.xml; sourceTree = "<group>"; };
 		79D1E08327998A4B00AD9C20 /* testingObjectiveC!000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testingObjectiveC!000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D1E08627998A4B00AD9C20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79D1E08727998A4B00AD9C20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		79D1E0A227998A4C00AD9C20 /* testingObjectiveC!000UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "testingObjectiveC!000UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D1E0A627998A4C00AD9C20 /* testingObjectiveC_000UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingObjectiveC_000UITests.m; sourceTree = "<group>"; };
 		79D1E0A827998A4C00AD9C20 /* testingObjectiveC_000UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingObjectiveC_000UITestsLaunchTests.m; sourceTree = "<group>"; };
+		79D1E0B527998AA100AD9C20 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		79D1E0B627998AA100AD9C20 /* TableViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TableViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,10 @@
 		79D1E08527998A4B00AD9C20 /* testingObjectiveC!000 */ = {
 			isa = PBXGroup;
 			children = (
+				79500FB3279AD1040069B86E /* Paper_Formats_PageSize_BCC.xml */,
+				79500FAE279AB0840069B86E /* pugiconfig.hpp */,
+				79500FAC279AB0840069B86E /* pugixml.cpp */,
+				79500FAD279AB0840069B86E /* pugixml.hpp */,
 				79D1E08627998A4B00AD9C20 /* AppDelegate.h */,
 				79D1E08727998A4B00AD9C20 /* AppDelegate.m */,
 				79D1E08927998A4B00AD9C20 /* ViewController.h */,
@@ -107,6 +123,10 @@
 				79D1E08E27998A4C00AD9C20 /* Main.storyboard */,
 				79D1E09127998A4C00AD9C20 /* main.m */,
 				79D1E09327998A4C00AD9C20 /* testingObjectiveC_000.entitlements */,
+				79D1E0B527998AA100AD9C20 /* TableViewController.h */,
+				79D1E0B627998AA100AD9C20 /* TableViewController.mm */,
+				79500FB0279AB0AB0069B86E /* PageSizeClass.cpp */,
+				79500FB1279AB0AB0069B86E /* PageSizeClass.hpp */,
 			);
 			path = "testingObjectiveC!000";
 			sourceTree = "<group>";
@@ -233,6 +253,7 @@
 			files = (
 				79D1E08D27998A4C00AD9C20 /* Assets.xcassets in Resources */,
 				79D1E09027998A4C00AD9C20 /* Main.storyboard in Resources */,
+				79500FB4279AD1040069B86E /* Paper_Formats_PageSize_BCC.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79500FAF279AB0840069B86E /* pugixml.cpp in Sources */,
 				79D1E08B27998A4B00AD9C20 /* ViewController.m in Sources */,
 				79D1E09227998A4C00AD9C20 /* main.m in Sources */,
+				79500FB2279AB0AB0069B86E /* PageSizeClass.cpp in Sources */,
 				79D1E08827998A4B00AD9C20 /* AppDelegate.m in Sources */,
+				79D1E0B727998AA100AD9C20 /* TableViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
