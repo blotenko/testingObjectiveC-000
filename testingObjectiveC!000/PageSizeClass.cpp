@@ -11,15 +11,12 @@ bool checkIdForRepeat(vector<PageSize*>& v,string s1){
         if(obj->getId() == s1){
             return false;
         }
-        
     }
     return true;
 }
 
  void addElem(vector<PageSize *>& v,string s1,string s2,string s3){
-   
      v.push_back(new PageSize(s1,s2,s3));
-     
  }
 
 

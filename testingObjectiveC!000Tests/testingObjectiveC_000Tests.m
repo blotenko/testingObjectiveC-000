@@ -33,4 +33,8 @@
     }];
 }
 
+-(void)testTrue {
+    XCTAssert(true,"should be true");
+}
+
 @end
